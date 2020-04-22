@@ -23,12 +23,12 @@ Each patient has their own record which includes :
 - Allowedlist: list of patient id that can be accessed.
 - Health records: history of medical records.
   Each doctor has their own patient list that they can access.
-  ![](./documentation/scheme.png)
+  ![](./documentation/KYPdiagram.jpg)
   _Health Record system_
 
 ## Architecture
 
-![](./documentation/architectureofapp.png)
+<!-- ![](./documentation/architectureofapp.png) -->
 
 _Diagram showing the architecture of Health Record App._
 
