@@ -17,7 +17,7 @@ Create a Decentralized application on a blockchain platform, in this case Hyper 
 - Using hyper ledger fabric, only permissioned parties can see the data on the ledger, in this case the consumer, the seller and the supplier.
 - The customer can easily verify the product’s authenticity, using a hash value or scanning a QR code.
 
-Blockchain network diagram
+Blockchain network diagram:
 
   ![](./documentation/KYPdiagram.jpg)
 
