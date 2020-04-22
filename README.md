@@ -1,19 +1,8 @@
 # KYP Know your Product Dapp 2 project
 
-A simple project simulates health record systems with transparent and security data using Hyperledger Fabric .
-
-This project has 3 repositories:
-* Front-end and document: 
-* Back-end: 
-* Chaincode : 
-
-## Demo
-
-
-
 ## Introduction
 
-A simple dapp aims to resolve the problem of patient consent to data sharing by using Hyperledger Fabric based on blockchain. It allows users to view their health records as well as other records which granted them a permission to access. Doctors can write or view their patients' records when they have a permission.
+This dapp aproaches the great problem that online market places face when counterfiet products are infiltrated into their market network
 
 ## Solution
 
