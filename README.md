@@ -3,7 +3,7 @@
 - App pitch presentation: https://drive.google.com/open?id=13gEys9WEKY5SOIddf0M-v430OmNsZQPm
 - App blockchain diagram: https://drive.google.com/open?id=1KX-onsrtsr8l6VQZJZ5v57wZ4wlB-GHG
 - App front-end demo: https://andresponton21.github.io/dapp2_project/
-- App chaincode repo: 
+- App chaincode repo: https://github.com/andresponton21/chaincode_dapp2.git
 
 ## Introduction
 
