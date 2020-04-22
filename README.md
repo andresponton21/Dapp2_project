@@ -3,13 +3,13 @@
 A simple project simulates health record systems with transparent and security data using Hyperledger Fabric .
 
 This project has 3 repositories:
-* Front-end and document: https://github.com/leodinh/health-record .
-* Back-end: https://github.com/leodinh/health-record-Back-End .
-* Chaincode : https://github.com/leodinh/GBC_DAPP1_chaincode .
+* Front-end and document: 
+* Back-end: 
+* Chaincode : 
 
 ## Demo
 
-Live Demo : https://leodinh.github.io/health-record/
+
 
 ## Introduction
 
