@@ -1,5 +1,9 @@
 # KYP Know your Product Dapp 2 project
 
+- App pitch presentation: https://drive.google.com/open?id=13gEys9WEKY5SOIddf0M-v430OmNsZQPm
+- App blockchain diagram: https://drive.google.com/open?id=1KX-onsrtsr8l6VQZJZ5v57wZ4wlB-GHG
+- App chaincode repo: 
+
 ## Introduction
 
 This dapp approaches the great problem that online market places face when counterfeit products are infiltrated into their market network. 
