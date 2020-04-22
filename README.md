@@ -1,4 +1,4 @@
-# Health Record (DAPP1 project in George Brown College)
+# KYP Know your Product Dapp 2 project
 
 A simple project simulates health record systems with transparent and security data using Hyperledger Fabric .
 
