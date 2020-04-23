@@ -42,15 +42,15 @@ Components:
 
 | Variable Name | Type     | Key         | Value                                         | Notes              |
 | ------------- | -------- | ----------- | --------------------------------------------- | ------------------ |
-| patientRecord | `Object` | `patientID` | {`access_list`,`allowed_list`,`medical_info`} | record for patient |
-| doctorRecord  | `Object` | `doctorID`  | {`allowed_list`}                              | record for doctor  |
+| productIfoId  | `Object` | `productID` | {`access_list`,`allowed_list`,`product_info`} | hash value product |
+| mktPlaceInfo  | `Object` | `mkplacID`  | {`allowed_list`}                              | info for sellers   |
 
 - Details for the value of variable.
   | Name | Type | Details | Notes |
   |------|------|---------|--------------------------------------------------------------------|
-  | access_list | `Array` | [{ `role`, `userID`},...] | list of ids can access record |
-  | allowed_list | `Array` | [{`role`, `userID` },...] | list of ids that can be accessed |
-  | medical_info | `Array` | [{`date`,`writer_id`,`information` },...] | list of health records |
+  | access_list | `Array` | [{ `role`, `userID`},...] | list of ids can access product |
+  | allowed_list | `Array` | [{`role`, `userID` },...] | list of ids that can access products |
+  | product_info   | `Array` | [{`date`,`writer_id`,`information` },...] | list of products |
 
 ### Off-chain data
 
@@ -61,13 +61,13 @@ Components:
 ## The Flow of Application
 
 1. A user has to sing up entering name, email and type of user
-2. In the first time, they are asked to choose role and write their name (a specific record is made in couchDB).
-3. The patient allows a doctor to access his/her record.
-4. Doctor selects a patient in his accessList and click button to query records of this patient.
-5. After examination, the doctor writes a medical record into patient health record history.
-6. Patients can get their medical records anytime.
-7. If the patient sees another doctor, the patient adds the doctor into the permission list.
-8. The patient can delete permission anytime.
+2. In the first time, they are asked to choose user and write their name (a specific record is made in couchDB).
+3. The marketplace releases a product to the allowed list, it means that is sold to a customer
+4. The customer sings up
+5. The customer enters the hash value that represents the product's id.
+6. The product's id gets recorded in the blockchain and is now verified
+7. If the customer tries to record the same hash again, it would get a message
+
 
 
 ### Setup
