@@ -1,5 +1,6 @@
 # KYP Know your Product Dapp 2 project
 
+- My Resume: https://drive.google.com/open?id=1LdwmQcR2AlmQS-m9fPUPipemxaTGRAVN
 - App pitch presentation: https://drive.google.com/open?id=13gEys9WEKY5SOIddf0M-v430OmNsZQPm
 - App blockchain diagram: https://drive.google.com/open?id=1KX-onsrtsr8l6VQZJZ5v57wZ4wlB-GHG
 - App front-end demo: https://andresponton21.github.io/dapp2_project/
